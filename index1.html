@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Developer & Tech Enthusiast</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>SELAMAT DATANG DI WEBSITE</h1>
+    <h2>Web Developer & Tech Enthusiast</h2>
+    <p>DINI MAHASISWA INFORMATIKA</p>
+    <nav>
+      <ul>
+        <li><a href="#About-Me">Tentang Saya</a></li>
+        <li><a href="#Portfolio">Portofolio</a></li>
+        <li><a href="#Contact-Me">Kontak Saya</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article id="About-Me">
+      <h2 class="center-title">Tentang Saya</h2>
+      <figure class="profile-image">
+        <img src="foto.jpg" alt="Foto Dini" />
+      </figure>
+      <p><strong>Nama:</strong> Dini</p>
+      <p><strong>Program Studi:</strong> Informatika</p>
+      <p><strong>Fakultas:</strong> Teknologi Industri</p>
+      <p><strong>Universitas:</strong> Ahmad Dahlan</p>
+      <p>
+        Saya adalah mahasiswa semester 2 Program Studi Informatika di Universitas
+        Ahmad Dahlan. Di semester ini saya belajar HTML, CSS, JavaScript, membuat web, dan
+        bahasa pemrograman lainnya. Saya memiliki semangat tinggi untuk terus belajar
+        dan mengembangkan keterampilan melalui perkuliahan, praktek mandiri, dan proyek pribadi.
+      </p>
+    </article>
+
+    <div class="divider"></div>
+
+    <aside id="Portfolio">
+      <h2 class="center-title">Portofolio Saya</h2>
+      <p>
+        Di SMK saya mengambil jurusan Teknik Komputer dan Jaringan. Saya banyak belajar tentang jaringan 
+        dan PC serta membuat proyek servis laptop seperti pemeriksaan, perbaikan, dan instal ulang sistem.
+      </p>
+      <p>
+        Saat ini saya ingin belajar lebih dalam tentang teknologi dan pemrograman agar
+        dapat menjadi profesional di bidang IT.
+      </p>
+      <p>
+        Rencana saya adalah menjadi konten kreator di bidang pemrograman serta membuat website
+        atau aplikasi bimbingan belajar untuk siswa dan mahasiswa.
+      </p>
+    </aside>
+
+    <div class="divider"></div>
+
+    <aside id="Contact-Me">
+      <h2 class="center-title">Hubungi Saya</h2>
+      <p><strong>Email:</strong> <a href="mailto:dininhy1726@gmail.com">dininhy1726@gmail.com</a></p>
+      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/early.nil/" target="_blank">@early.nil</a></p>
+      <button id="greetBtn">Sapa Saya</button>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dini - Universitas Ahmad Dahlan</p>
+  </footer>
+
+  <script>
+    document.getElementById("greetBtn").addEventListener("click", function () {
+      alert("Halo, terima kasih sudah mengunjungi website saya!");
+    });
+  </script>
+</body>
+</html>
